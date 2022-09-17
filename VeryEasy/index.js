@@ -34,3 +34,10 @@ function ageToDays(year) {
   return year * 365;
 }
 console.log("Age in Days = " + ageToDays(10));
+
+// Challenge No.7
+// Buggy Code (Part 1)
+function cubes(a) {
+  return a ** 3;
+}
+console.log("Cubes in = " + cubes(10));
