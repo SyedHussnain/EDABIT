@@ -62,3 +62,10 @@ function hoursIntoSeconds(hours) {
   return hours * 3600;
 }
 console.log("Hours in Seconds = " + hoursIntoSeconds(2));
+
+// Challenge No.11
+// Maximum Edge of a Triangle
+function edgeOfTriangle(side1, side2) {
+  return (side1 + side2)-1 
+}
+console.log("Third Edge of Triangle = " + edgeOfTriangle(8, 10));
