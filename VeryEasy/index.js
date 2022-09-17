@@ -69,3 +69,10 @@ function edgeOfTriangle(side1, side2) {
   return (side1 + side2)-1 
 }
 console.log("Third Edge of Triangle = " + edgeOfTriangle(8, 10));
+
+// Challenge No.12
+// Return the Remainder from Two Numbers
+function remainderOfTwoNumbers(x, y) {
+  return x % y;
+}
+console.log("Remainder of Two Numbers = " + remainderOfTwoNumbers(10, 4));
