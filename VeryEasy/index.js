@@ -18,3 +18,11 @@ function nextNumber(x) {
   return x + 1;
 }
 console.log("Next Number is = " + nextNumber(15));
+
+// Challenge No.5
+// Area of a Triangle
+// (base * height) / 2
+function triArea(x, y) {
+  return (x * y)/2;
+}
+console.log("Area of triAngle = " + triArea(10, 20));
