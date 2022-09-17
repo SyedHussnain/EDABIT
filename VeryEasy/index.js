@@ -26,3 +26,11 @@ function triArea(x, y) {
   return (x * y)/2;
 }
 console.log("Area of triAngle = " + triArea(10, 20));
+
+// Challenge No.6
+// Convert Age to Days
+// year * 365
+function ageToDays(year) {
+  return year * 365;
+}
+console.log("Age in Days = " + ageToDays(10));
