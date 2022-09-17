@@ -54,4 +54,11 @@ console.log("First Element of an array = " + firstElement([20, 4, 6, 8, 10,]));
 function circuitPower(voltage,current) {
   return voltage * current
 }
-console.log("Circuit Power = " + circuitPower(230,10))
+console.log("Circuit Power = " + circuitPower(230, 10));
+
+// Chalenge No.10
+// Convert Hours into Seconds
+function hoursIntoSeconds(hours) {
+  return hours * 3600;
+}
+console.log("Hours in Seconds = " + hoursIntoSeconds(2));
