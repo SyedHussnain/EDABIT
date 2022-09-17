@@ -76,3 +76,10 @@ function remainderOfTwoNumbers(x, y) {
   return x % y;
 }
 console.log("Remainder of Two Numbers = " + remainderOfTwoNumbers(10, 4));
+
+// Challenge No.13
+// Find the Perimeter of a Rectangle
+function perimeterOfRectangle(lenght, width) {
+  return 2 * (lenght + width);
+}
+console.log("Perimeter of Rectangle = " + perimeterOfRectangle(6, 7));
