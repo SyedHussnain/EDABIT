@@ -90,3 +90,10 @@ function giveMeSomething(a) {
   return "something " + a;
 }
 console.log("Return Something to Me = " + giveMeSomething("Hussnain Ali"));
+
+// Challenge No.15
+// Correct the Mistakes
+function squared(a) {
+  return a * a;
+}
+console.log("Squared Value = " + squared(5));
