@@ -83,3 +83,10 @@ function perimeterOfRectangle(lenght, width) {
   return 2 * (lenght + width);
 }
 console.log("Perimeter of Rectangle = " + perimeterOfRectangle(6, 7));
+
+// Challenge No.14
+// Return Something to Me!
+function giveMeSomething(a) {
+  return "something " + a;
+}
+console.log("Return Something to Me = " + giveMeSomething("Hussnain Ali"));
