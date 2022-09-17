@@ -41,3 +41,10 @@ function cubes(a) {
   return a ** 3;
 }
 console.log("Cubes in = " + cubes(10));
+
+// Challenge No.8
+// Return the First Element in an Array
+function firstElement(a) { 
+  return a[0];
+}
+console.log("First Element of an array = " + firstElement([20, 4, 6, 8, 10,]));
