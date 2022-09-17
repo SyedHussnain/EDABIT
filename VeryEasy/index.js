@@ -48,3 +48,10 @@ function firstElement(a) {
   return a[0];
 }
 console.log("First Element of an array = " + firstElement([20, 4, 6, 8, 10,]));
+
+// Challenge No.9
+// Power Calculator
+function circuitPower(voltage,current) {
+  return voltage * current
+}
+console.log("Circuit Power = " + circuitPower(230,10))
