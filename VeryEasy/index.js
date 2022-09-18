@@ -113,3 +113,10 @@ function sumPolygon(n) {
   return (n - 2) * 180;
 }
 console.log("Sum of Polygon = " + sumPolygon(4));
+
+// Challenge No.18
+// Basketball Points
+function points(pointer2,pointer3) {
+  return (pointer2 * 2) + (pointer3 * 3); 
+}
+console.log("Total Points = " + points(2, 3));
