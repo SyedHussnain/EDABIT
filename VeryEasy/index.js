@@ -127,3 +127,10 @@ function nameString(name) {
   return name + "Edabit";
 }
 console.log("Name with Edabit = " + nameString("Hussnain"));
+
+// Challenge No.20
+// Less Than 100?
+function lessThan100(a, b) {
+  return a + b <= 100;
+}
+console.log("Sum of two Numbers Less than Zero = " + lessThan100(50,49));
