@@ -104,3 +104,12 @@ function lessThanOrEqualToZero(x) {
   return x <= 0;
 }
 console.log("Number is Less Or Equal to Zero = " + lessThanOrEqualToZero(10));
+
+// Challenge No.17
+// Sum of Polygon Angles
+// The formula (n - 2) x 180 gives the sum of all the measures of the angles of an n-sided polygon.
+// n will always be greater than 2.
+function sumPolygon(n) {
+  return (n - 2) * 180;
+}
+console.log("Sum of Polygon = " + sumPolygon(4));
