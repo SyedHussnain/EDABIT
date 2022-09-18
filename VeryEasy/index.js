@@ -120,3 +120,10 @@ function points(pointer2,pointer3) {
   return (pointer2 * 2) + (pointer3 * 3); 
 }
 console.log("Total Points = " + points(2, 3));
+
+// Challenge No.19
+// Basic Variable Assignment
+function nameString(name) {
+  return name + "Edabit";
+}
+console.log("Name with Edabit = " + nameString("Hussnain"));
