@@ -97,3 +97,10 @@ function squared(a) {
   return a * a;
 }
 console.log("Squared Value = " + squared(5));
+
+// Challenge No.16
+// Is the Number Less than or Equal to Zero?
+function lessThanOrEqualToZero(x) {
+  return x <= 0;
+}
+console.log("Number is Less Or Equal to Zero = " + lessThanOrEqualToZero(10));
