@@ -194,3 +194,10 @@ function hrMinToSec(hr, min) {
   return hr * 3600 + min * 60;
 }
 console.log("Time in Seconds = " + hrMinToSec(1, 20));
+
+// Challenge No.28
+// Fix the Expression
+function equalToSeven(num) {
+  return num === 7;
+}
+console.log("Number is equal to seven = " + equalToSeven(7));
