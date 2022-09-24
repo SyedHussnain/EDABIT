@@ -147,3 +147,14 @@ function printArray(number) {
   return newArray;
 }
 console.log(printArray(10));
+
+// Challange No.22
+// Buggy Code (Part 7)
+function swap(a, b) {
+  let temp;
+  temp = a;
+  a = b;
+  b = temp;
+  return [a, b];
+}
+console.log(swap(10, 20));
