@@ -173,3 +173,10 @@ function and(a, b) {
   return "Answer is = " + (a == true && b == true);
 }
 console.log(and(true, true));
+
+// Challenge No.25
+// Are the Numbers Equal?
+function isSameNum(a, b) {
+  return a == b;
+}
+console.log("Number is Same = " + isSameNum(15, 9));
