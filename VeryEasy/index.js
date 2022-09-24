@@ -211,3 +211,10 @@ function checkEquality(a, b) {
 console.log(
   "Data Type of Both Parameters are equal = " + checkEquality("Hellow", "0")
 );
+
+// Challenge No.30
+// Profitable Gamble
+function profitableGamble(prob, prize, pay) {
+  return prob * prize > pay;
+}
+console.log("Profitable Gamble  = " + profitableGamble(0.9, 3, 2));
