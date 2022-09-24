@@ -187,3 +187,10 @@ function teamPoints(win, draw, loss) {
   return win * 3 + draw + loss * 0;
 }
 console.log("Total Point of the Team = " + teamPoints(9, 2, 4));
+
+// Challenge No.27
+// Convert Hours and Minutes into Seconds
+function hrMinToSec(hr, min) {
+  return hr * 3600 + min * 60;
+}
+console.log("Time in Seconds = " + hrMinToSec(1, 20));
