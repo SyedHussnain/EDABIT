@@ -148,6 +148,7 @@ function printArray(number) {
 }
 console.log(printArray(10));
 
+
 // Challange No.22
 // Buggy Code (Part 7)
 function swap(a, b) {
@@ -158,3 +159,10 @@ function swap(a, b) {
   return [a, b];
 }
 console.log(swap(10, 20));
+
+// Challenge No.23
+// The Farm Problem
+function animals(chick, pig, cow) {
+  return chick * 2 + pig * 4 + cow * 4;
+}
+console.log("Total Legs of Animals = " + animals(2, 3, 5));
