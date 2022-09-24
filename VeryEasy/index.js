@@ -133,4 +133,17 @@ console.log("Name with Edabit = " + nameString("Hussnain"));
 function lessThan100(a, b) {
   return a + b <= 100;
 }
-console.log("Sum of two Numbers Less than Zero = " + lessThan100(50,49));
+console.log("Sum of two Numbers Less than Zero = " + lessThan100(50, 49));
+
+// Challenge No.21
+// Buggy Code (Part 5)
+function printArray(number) {
+  var newArray = [];
+
+  for (var i = 1; i <= number; i++) {
+    newArray.push(i);
+  }
+
+  return newArray;
+}
+console.log(printArray(10));
