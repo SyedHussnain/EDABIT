@@ -180,3 +180,10 @@ function isSameNum(a, b) {
   return a == b;
 }
 console.log("Number is Same = " + isSameNum(15, 9));
+
+// Challenge No.26
+// Football Points
+function teamPoints(win, draw, loss) {
+  return win * 3 + draw + loss * 0;
+}
+console.log("Total Point of the Team = " + teamPoints(9, 2, 4));
