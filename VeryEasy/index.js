@@ -166,3 +166,10 @@ function animals(chick, pig, cow) {
   return chick * 2 + pig * 4 + cow * 4;
 }
 console.log("Total Legs of Animals = " + animals(2, 3, 5));
+
+// Challenge No.24
+// Using the "&&" Operator
+function and(a, b) {
+  return "Answer is = " + (a == true && b == true);
+}
+console.log(and(true, true));
