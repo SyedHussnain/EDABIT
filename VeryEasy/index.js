@@ -201,3 +201,13 @@ function equalToSeven(num) {
   return num === 7;
 }
 console.log("Number is equal to seven = " + equalToSeven(7));
+
+// Chalenge No.29
+// Equality Check
+function checkEquality(a, b) {
+  return typeof a === typeof b;
+}
+
+console.log(
+  "Data Type of Both Parameters are equal = " + checkEquality("Hellow", "0")
+);
