@@ -456,3 +456,9 @@ function shouldServeDrinks(a, b) {
   return a >= 18 && b === true;
 }
 console.log("Drink Served = " + shouldServeDrinks(18, true));
+
+// Challenge No.59
+// Format I: Template String
+let firstName = "Hussnain";
+let lastName = "Ali";
+console.log(`My Name ${firstName} ${lastName}.`);
