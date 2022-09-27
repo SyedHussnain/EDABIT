@@ -385,3 +385,13 @@ function calculator1(m) {
   return eval(m);
 }
 console.log("Answer of String Expression = " + calculator1("7*4-2"));
+
+// Challenge No.52
+// Upvotes vs Downvotes
+function getVoteCount(x) {
+  return x.upvote - x.downvote;
+}
+console.log(
+  "object passed as parameter and do sum = " +
+    getVoteCount({ upvote: 2, downvote: 33 })
+);
