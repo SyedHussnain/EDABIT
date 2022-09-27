@@ -449,3 +449,10 @@ function addOneInAllElements(temp) {
   return newArr;
 }
 console.log(addOneInAllElements([1, 2, 3, 4, 5, 6, 7, 8]));
+
+// Challenge No.58
+// Drinks Allowed?
+function shouldServeDrinks(a, b) {
+  return a >= 18 && b === true;
+}
+console.log("Drink Served = " + shouldServeDrinks(18, true));
