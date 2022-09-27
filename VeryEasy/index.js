@@ -238,3 +238,10 @@ function frames(certainFps,min) {
   return certainFps * (min * 60);
 }
 console.log("Frames Per Second = " + frames(10, 25));
+
+// Challenge No.34
+// Miserable Parody of a Calculator
+function calculator(a) {
+  return eval(a);
+}
+console.log("String Calculation = " + calculator("23+4"));
