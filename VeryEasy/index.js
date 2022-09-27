@@ -345,4 +345,11 @@ console.log(dividesEvenly(85, 4));
 function stringInt(a) {
   return +6;
 }
-console.log(typeof stringInt("6") + " = "+ stringInt("6"));
+console.log(typeof stringInt("6") + " = " + stringInt("6"));
+
+// Challenge No.47
+// Area of a Rectangle
+function area(height, width) {
+  return height * width > 0 ? height * width : -1;
+}
+console.log(area(3, 4));
