@@ -339,3 +339,10 @@ function dividesEvenly(a,b) {
   return evenly%2===0
 }
 console.log(dividesEvenly(85, 4));
+
+// Challenge No.46
+// Return a String as an Integer
+function stringInt(a) {
+  return +6;
+}
+console.log(typeof stringInt("6") + " = "+ stringInt("6"));
