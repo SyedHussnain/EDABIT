@@ -402,3 +402,22 @@ function returnNegative(x) {
   return -x;
 }
 console.log(returnNegative(4));
+
+// Challenge No.54
+// Learn Lodash: _.drop, Drop the First Elements of an Array
+// Lodash is a library which include via Cdn link
+function dropFirstElement(arr, val = 1) {
+  return _.drop(arr, val);
+}
+console.log(
+  "Dropped First Element of an array = " +
+    dropFirstElement([9, 8, 7, 5, 6, 2, 13, 45, 5, 6, 55, 2])
+);
+
+// Drop first Element with Splice
+function drop1(arr) {
+  return arr.splice(1);
+}
+console.log(
+  "Removing first Element of an Array = " + drop1([100, 2, 3, 5, 4, 9, 8, 11])
+);
