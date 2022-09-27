@@ -367,3 +367,14 @@ function fullName(a, b) {
   return a + " " + b;
 }
 console.log("Your FullName is = " + fullName("Hussnian", "Ali"));
+
+// Challenege No.50
+// Buggy Code
+function has_bugs(buggy_code) {
+  if (buggy_code) {
+    return "sad days";
+  } else {
+    return "it's a good day";
+  }
+}
+console.log(has_bugs(true));
