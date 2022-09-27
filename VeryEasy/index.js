@@ -395,3 +395,10 @@ console.log(
   "object passed as parameter and do sum = " +
     getVoteCount({ upvote: 2, downvote: 33 })
 );
+
+// Challenge No.53
+// Return Negative
+function returnNegative(x) {
+  return -x;
+}
+console.log(returnNegative(4));
