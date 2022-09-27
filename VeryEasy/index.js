@@ -431,3 +431,10 @@ console.log(
   "It will return reverse of that Array = " +
     reverseArray([8, 9, 5, 1, 2, 36, 4, 2, 5])
 );
+
+// Challenge No.56
+// Movie Theatre Admittance
+function acceptIntoMovies(age, isSupervised) {
+  return age >= 15 && isSupervised == true;
+}
+console.log("Permission Granted = " + acceptIntoMovies(15, true));
