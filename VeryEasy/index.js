@@ -482,3 +482,12 @@ let marks = 90;
 let isNice;
 isNice = marks > 50 ? "Nice" : "NotNice";
 console.log(isNice);
+
+// Challenge No.62
+// Minimal IV: if-else if-else Inferno
+function equilbrium(x) {
+  if (x > 0) return "positive";
+  else if (x < 0) return "negative";
+  else return true;
+}
+console.log(equilbrium(0));
