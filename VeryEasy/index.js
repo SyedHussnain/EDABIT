@@ -245,3 +245,13 @@ function calculator(a) {
   return eval(a);
 }
 console.log("String Calculation = " + calculator("23+4"));
+
+// Challenge No.35
+// Buggy Code (Part 4)
+function greeting(name) {
+  if (name == "Hussnain") {
+    return "Hello, my Love!";
+  }
+  return "Hello, " + name + "!";
+}
+console.log(greeting("Hussnain"));
