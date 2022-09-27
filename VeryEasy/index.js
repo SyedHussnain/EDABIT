@@ -218,3 +218,11 @@ function profitableGamble(prob, prize, pay) {
   return prob * prize > pay;
 }
 console.log("Profitable Gamble  = " + profitableGamble(0.9, 3, 2));
+
+// Challenge No.31
+// Boolean to String Conversion
+function boolToString(a) {
+  return "" + a;
+}
+ console.log(boolToString(true)); 
+ console.log(typeof boolToString(false)); 
