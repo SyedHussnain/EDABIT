@@ -317,3 +317,10 @@ function divisibleByFive(num) {
   return num / 5 === 0;
 }
 console.log("This number is Divisible by Five = " + divisibleByFive(99));
+
+// Challenge No.43
+// Multiple of 100
+function divisibleByHundred(num1) {
+  return num1 / 100 === 0;
+}
+console.log("This Number is Multiple of 100 = " + divisibleByHundred(50000000));
