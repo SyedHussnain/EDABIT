@@ -324,3 +324,10 @@ function divisibleByHundred(num1) {
   return num1 / 100 === 0;
 }
 console.log("This Number is Multiple of 100 = " + divisibleByHundred(50000000));
+
+// Challenge No.44
+// Recursion: Length of a String
+function lenghtt(str) {
+  return str.length;
+}
+console.log("Lenght is = " + lenghtt("apple"));
