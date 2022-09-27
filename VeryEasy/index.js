@@ -310,3 +310,10 @@ function isEmpty(x) {
   return x === "";
 }
 console.log("Empty = " + isEmpty(" "));
+
+// Challenge No.42
+// Check if an Integer is Divisible By Five
+function divisibleByFive(num) {
+  return num / 5 === 0;
+}
+console.log("This number is Divisible by Five = " + divisibleByFive(99));
