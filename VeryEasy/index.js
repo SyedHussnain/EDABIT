@@ -491,3 +491,11 @@ function equilbrium(x) {
   else return true;
 }
 console.log(equilbrium(0));
+
+// Challenge No.63
+// Is the String Odd or Even?
+function oddOrEven(a) {
+  let y = a.length;
+  return y % 2 === 0;
+}
+console.log("Even = " + oddOrEven("apples"));
