@@ -255,3 +255,10 @@ function greeting(name) {
   return "Hello, " + name + "!";
 }
 console.log(greeting("Hussnain"));
+
+// Challenge No.36
+// Two Makes Ten
+function twoMakesTen(m, n) {
+  return m === 10 || n === 10 || m + n === 10;
+}
+console.log(twoMakesTen(5, 5));
