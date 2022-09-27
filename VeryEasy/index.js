@@ -288,3 +288,18 @@ function makePair(o, p) {
   return [o, p];
 }
 console.log(makePair(10, 20));
+
+// Challenge No.40
+// Compare Strings by Count of Characters
+function comp(b, x) {
+  if (typeof b === "string" && typeof x === "string") {
+    if (b.length === x.length) {
+      return "Both Strings are Equal";
+    } else {
+      return "Both Strings are not Equal";
+    }
+  } else {
+    return "Please Enter a Valid String";
+  }
+}
+console.log(comp("Helo", "Helo"));
