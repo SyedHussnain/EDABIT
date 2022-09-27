@@ -527,3 +527,12 @@ function howManyWalls(n, w, h) {
 console.log(howManyWalls(100, 4, 5));
 console.log(howManyWalls(10, 15, 12));
 console.log(howManyWalls(41, 3, 6));
+
+// Challenge No.68
+// To the Power of _____
+function calculateExponent(num, exp) {
+  return Math.pow(num, exp);
+ }
+console.log(calculateExponent(5, 5));
+console.log(calculateExponent(10, 10));
+console.log(calculateExponent(3, 3));
