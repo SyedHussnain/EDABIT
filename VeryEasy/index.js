@@ -499,3 +499,8 @@ function oddOrEven(a) {
   return y % 2 === 0;
 }
 console.log("Even = " + oddOrEven("apples"));
+
+// Challenge No.64
+// ES6: Destructuring Arrays I
+arr = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+console.log(arr[1]);
