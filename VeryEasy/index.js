@@ -269,3 +269,14 @@ function calculateFuel(distance) {
   return distance * 10 >= 100 ? distance * 10 : 100;
   }
 console.log(calculateFuel(3));
+
+// Challenge No.38
+// Buggy Code (Part 2)
+function maxNum(n1, n2) {
+  if (n1 > n2) {
+    return n1;
+  } else {
+    return n2;
+  }
+}
+console.log(maxNum(10, 5));
