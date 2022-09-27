@@ -421,3 +421,13 @@ function drop1(arr) {
 console.log(
   "Removing first Element of an Array = " + drop1([100, 2, 3, 5, 4, 9, 8, 11])
 );
+
+// Challenge No.55
+// Reverse an Array
+function reverseArray(n) {
+  return n.reverse();
+}
+console.log(
+  "It will return reverse of that Array = " +
+    reverseArray([8, 9, 5, 1, 2, 36, 4, 2, 5])
+);
