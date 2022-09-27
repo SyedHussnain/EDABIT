@@ -262,3 +262,10 @@ function twoMakesTen(m, n) {
   return m === 10 || n === 10 || m + n === 10;
 }
 console.log(twoMakesTen(5, 5));
+
+// Challenge No.37
+// Let's Fuel Up!
+function calculateFuel(distance) {
+  return distance * 10 >= 100 ? distance * 10 : 100;
+  }
+console.log(calculateFuel(3));
