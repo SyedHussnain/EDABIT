@@ -303,3 +303,10 @@ function comp(b, x) {
   }
 }
 console.log(comp("Helo", "Helo"));
+
+// Challenge No.41
+// Is the String Empty?
+function isEmpty(x) {
+  return x === "";
+}
+console.log("Empty = " + isEmpty(" "));
