@@ -378,3 +378,10 @@ function has_bugs(buggy_code) {
   }
 }
 console.log(has_bugs(true));
+
+// Challenge No.51
+// Solve the Equation
+function calculator1(m) {
+  return eval(m);
+}
+console.log("Answer of String Expression = " + calculator1("7*4-2"));
