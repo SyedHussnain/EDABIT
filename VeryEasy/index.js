@@ -462,3 +462,16 @@ console.log("Drink Served = " + shouldServeDrinks(18, true));
 let firstName = "Hussnain";
 let lastName = "Ali";
 console.log(`My Name ${firstName} ${lastName}.`);
+
+// Challenge No.60
+// Arrow Functions
+let add2 = (x) => x + 2;
+let add3 = (x) => x + 3;
+let add5 = (x) => x + 5;
+let add7 = (x) => x + 7;
+let add11 = (x) => x + 1;
+console.log(add2(100));
+console.log(add3(140));
+console.log(add5(290));
+console.log(add7(150));
+console.log(add11(90));
