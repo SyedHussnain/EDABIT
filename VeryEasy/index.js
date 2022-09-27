@@ -360,3 +360,10 @@ function legalAge(age) {
   return age >= 18;
 }
 console.log("LegalAge = " + legalAge(18));
+
+// Challenge No.49
+// Concatenate First and Last Name into One String
+function fullName(a, b) {
+  return a + " " + b;
+}
+console.log("Your FullName is = " + fullName("Hussnian", "Ali"));
