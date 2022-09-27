@@ -552,3 +552,33 @@ function leapYear(year) {
 console.log("1990 Leap Year = " + leapYear(1990));
 console.log("1924 Leap Year = " + leapYear(1924));
 console.log("2021 Leap Year = " + leapYear(2021));
+
+// Challenge No.71
+// String and Number Conversions
+// Use of parseInt
+let strToNumber = "50";
+console.log(
+  "TypeOf Variable strToNumber = " + typeof strToNumber + " = " + strToNumber
+);
+let ab = parseInt(strToNumber);
+console.log("TypeOf Variable ab = " + typeof ab + " = " + ab);
+
+// use of toString
+let abc = 50;
+console.log("Type of the Variable abc = " + typeof abc + " = " + abc);
+let xyz = abc.toString();
+console.log("Type of the Variable xyz = " + typeof xyz + " = " + xyz);
+
+// Now we Create our own Custom Function parseInt
+function parseInt1(x) {
+  return "" + x;
+}
+let mm = parseInt1(50);
+console.log("TypeOf the Argument Passed in Num = " + typeof mm + " = " + mm);
+
+//Now we Create our own custom Function toString
+function toString1(y) {
+  return +y;
+}
+let nn = toString1("50");
+console.log("TypeOf the Argument Passed in String = " + typeof nn + " = " + nn);
