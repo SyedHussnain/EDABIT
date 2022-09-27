@@ -475,3 +475,10 @@ console.log(add3(140));
 console.log(add5(290));
 console.log(add7(150));
 console.log(add11(90));
+
+// Challenge No.61
+// Using Ternary Operators
+let marks = 90;
+let isNice;
+isNice = marks > 50 ? "Nice" : "NotNice";
+console.log(isNice);
