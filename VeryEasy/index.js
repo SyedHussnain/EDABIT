@@ -543,3 +543,12 @@ function getLastItem(arr) {
   return arr.pop();
 }
 console.log(getLastItem([10, 20, 30, 40, 50, 60]));
+
+// Challenge No.70
+// Leap Year Function
+function leapYear(year) {
+  return year % 4 === 0 || year % 400 === 0; 
+ }
+console.log("1990 Leap Year = " + leapYear(1990));
+console.log("1924 Leap Year = " + leapYear(1924));
+console.log("2021 Leap Year = " + leapYear(2021));
