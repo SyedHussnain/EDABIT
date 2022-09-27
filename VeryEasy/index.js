@@ -231,3 +231,10 @@ function boolToString(a) {
 // Using Arrow Functions
 arrowFunc = (a) => 3;
 console.log("Arrow Function = " + arrowFunc(3));
+
+// Challenge No.33
+// Frames Per Second
+function frames(certainFps,min) {
+  return certainFps * (min * 60);
+}
+console.log("Frames Per Second = " + frames(10, 25));
