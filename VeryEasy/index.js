@@ -518,3 +518,12 @@ function futurePeople(population, n) {
   return population + (360 * n);
 }
 console.log("Future People = " + futurePeople(3248, 6));
+
+// Challenge No.67
+// I'd Like a New Shade of Blue, Please
+function howManyWalls(n, w, h) { 
+  return Math.floor(n / (w * h));
+}
+console.log(howManyWalls(100, 4, 5));
+console.log(howManyWalls(10, 15, 12));
+console.log(howManyWalls(41, 3, 6));
