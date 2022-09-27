@@ -438,3 +438,14 @@ function acceptIntoMovies(age, isSupervised) {
   return age >= 15 && isSupervised == true;
 }
 console.log("Permission Granted = " + acceptIntoMovies(15, true));
+
+// Challenge No.57
+// Fix the Bug: Simple Array Manipulation
+function addOneInAllElements(temp) {
+  let newArr = [];
+  for (let items of temp) {
+    newArr.push(items + 1);
+  }
+  return newArr;
+}
+console.log(addOneInAllElements([1, 2, 3, 4, 5, 6, 7, 8]));
