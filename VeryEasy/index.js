@@ -280,3 +280,11 @@ function maxNum(n1, n2) {
   }
 }
 console.log(maxNum(10, 5));
+
+// Challenge No.39
+// Pair Mangement
+// return as an Array
+function makePair(o, p) {
+  return [o, p];
+}
+console.log(makePair(10, 20));
