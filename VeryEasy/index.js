@@ -511,3 +511,10 @@ function inchesToFeet(y) {
   return y / 12;
 }
 console.log(inchesToFeet(324));
+
+// Challenge No.66
+// Century Crisis
+function futurePeople(population, n) {
+  return population + (360 * n);
+}
+console.log("Future People = " + futurePeople(3248, 6));
