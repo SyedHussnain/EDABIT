@@ -226,3 +226,8 @@ function boolToString(a) {
 }
  console.log(boolToString(true)); 
  console.log(typeof boolToString(false)); 
+ 
+//  Challenge No.32
+// Using Arrow Functions
+arrowFunc = (a) => 3;
+console.log("Arrow Function = " + arrowFunc(3));
