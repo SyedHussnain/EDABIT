@@ -504,3 +504,10 @@ console.log("Even = " + oddOrEven("apples"));
 // ES6: Destructuring Arrays I
 arr = [10, 20, 30, 40, 50, 60, 70, 80, 90];
 console.log(arr[1]);
+
+// Challenge No.65
+// Inches to Feet
+function inchesToFeet(y) {
+  return y / 12;
+}
+console.log(inchesToFeet(324));
