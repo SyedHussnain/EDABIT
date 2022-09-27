@@ -536,3 +536,10 @@ function calculateExponent(num, exp) {
 console.log(calculateExponent(5, 5));
 console.log(calculateExponent(10, 10));
 console.log(calculateExponent(3, 3));
+
+// Challenge No.69
+// Return the Last Element in an Array
+function getLastItem(arr) {
+  return arr.pop();
+}
+console.log(getLastItem([10, 20, 30, 40, 50, 60]));
