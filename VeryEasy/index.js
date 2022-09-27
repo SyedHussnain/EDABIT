@@ -353,3 +353,10 @@ function area(height, width) {
   return height * width > 0 ? height * width : -1;
 }
 console.log(area(3, 4));
+
+// Challenge No.48
+// Minimal I: If Boolean Then Boolean
+function legalAge(age) {
+  return age >= 18;
+}
+console.log("LegalAge = " + legalAge(18));
