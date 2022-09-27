@@ -331,3 +331,11 @@ function lenghtt(str) {
   return str.length;
 }
 console.log("Lenght is = " + lenghtt("apple"));
+
+// Challenge No.45
+// Divides Evenly
+function dividesEvenly(a,b) {
+  let evenly = a / b;
+  return evenly%2===0
+}
+console.log(dividesEvenly(85, 4));
