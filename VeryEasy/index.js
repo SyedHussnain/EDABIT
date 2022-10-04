@@ -772,3 +772,10 @@ console.log(flipBool(0));
 // Name Greeting!
 let helloName = (name) => "Hello " + name;
 console.log(helloName("Hussnian"));
+
+// Challenge No.79
+// Is the Number Even or Odd?
+function isEvenOrOdd(num) {
+	return num % 2 === 0 ? "Even" : "Odd";
+}
+console.log(isEvenOrOdd(25));
