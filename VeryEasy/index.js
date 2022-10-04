@@ -596,4 +596,11 @@ console.log(" Possible Numbers of Arrangement of Swithes = " + posCom(10));
 function imposterFormula(i, p) {
   return 100 * (i / p);
 }
-console.log("Chances of imposter = " + imposterFormula(1, 10)+"%")
+console.log("Chances of imposter = " + imposterFormula(1, 10) + "%")
+
+// Challenge No.74
+// Find Out the Leap Year
+function leapYear(year) {
+  return year % 4 == 0 || (year % 100 == 0  && year % 400 == 0)
+}
+console.log(leapYear(1968));
