@@ -810,3 +810,10 @@ function isOdd(num) {
 	return num % 2 !== 0;
 }
 console.log("Number is Odd = " + isOdd(78));
+
+// Challenge No.82
+// Stack the Boxes
+function stackBoxes(n) {
+  return n**2
+}
+console.log(""+ stackBoxes(2))
