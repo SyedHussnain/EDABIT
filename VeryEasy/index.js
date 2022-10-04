@@ -763,7 +763,12 @@ function flipBool(b) {
 		default:
 			z = true;
 			break;
-  }
-  return z;
+	}
+	return z;
 }
 console.log(flipBool(0));
+
+// Challenge No.78
+// Name Greeting!
+let helloName = (name) => "Hello " + name;
+console.log(helloName("Hussnian"));
