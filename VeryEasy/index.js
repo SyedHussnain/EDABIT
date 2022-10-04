@@ -843,3 +843,10 @@ let abr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log(
 	"Array to String = " + arrayToString(abr)
 );
+
+// Challenge No.85
+// Concatenating Two Integer Arrays
+function concat(arr1, arr2) {
+  return arr1.concat(arr2);
+}
+console.log(concat([1, 3, 5], [2, 6, 8]));
