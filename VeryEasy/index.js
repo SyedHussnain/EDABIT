@@ -867,3 +867,10 @@ function radiansToDegrees(rad) {
 	return (rad * 180) / Math.PI;
 }
 console.log(radiansToDegrees(20));
+
+// Challenge No.88
+// Array Indexing
+function valueAt(arr, i) { 
+  return arr[Math.floor(i)];
+}
+console.log(valueAt([1, 2, 3, 4, 5, 6], 11 / 2));
