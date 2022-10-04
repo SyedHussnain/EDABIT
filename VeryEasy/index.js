@@ -870,7 +870,16 @@ console.log(radiansToDegrees(20));
 
 // Challenge No.88
 // Array Indexing
-function valueAt(arr, i) { 
-  return arr[Math.floor(i)];
+function valueAt(arr, i) {
+	return arr[Math.floor(i)];
 }
 console.log(valueAt([1, 2, 3, 4, 5, 6], 11 / 2));
+
+// Challenge No.89
+// Find the Index (Part 1)
+function search(arr, item) {
+	return arr.indexOf(item);
+}
+console.log(
+	search([1, 5, 31, 14, 50, 60, 80], 50)
+);
