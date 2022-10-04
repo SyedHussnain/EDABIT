@@ -582,3 +582,10 @@ function toString1(y) {
 }
 let nn = toString1("50");
 console.log("TypeOf the Argument Passed in String = " + typeof nn + " = " + nn);
+
+// Challenge No.72
+// On/Off Switches
+function posCom(num) {
+  return 2 ** num;
+}
+console.log(" Possible Numbers of Arrangement of Swithes = "+posCom(10));
