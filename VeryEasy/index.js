@@ -814,6 +814,22 @@ console.log("Number is Odd = " + isOdd(78));
 // Challenge No.82
 // Stack the Boxes
 function stackBoxes(n) {
-  return n**2
+	return n ** 2;
 }
-console.log(""+ stackBoxes(2))
+console.log("" + stackBoxes(2));
+
+// Challenge No.83
+// Triangle and Parallelogram Area Finder
+function areaShape(base, height, shape) {
+	if (shape === "triangle") {
+		return 0.5 * base * height;
+	} else {
+		return base * height;
+	}
+}
+console.log(
+	"Triangle = " + areaShape(2, 3, "triangle")
+);
+console.log(
+	"Triangle = " + areaShape(8, 6, "parallelogram")
+);
