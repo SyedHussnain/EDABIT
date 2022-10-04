@@ -803,3 +803,10 @@ function operate(num1, num2, operator) {
 	}
 }
 console.log(operate(100, 20, "-"));
+
+// Challenge No.81
+// Fix the Error: Check Whether a Given Number Is Odd
+function isOdd(num) {
+	return num % 2 !== 0;
+}
+console.log("Number is Odd = " + isOdd(78));
