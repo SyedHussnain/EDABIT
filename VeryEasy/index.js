@@ -883,3 +883,14 @@ function search(arr, item) {
 console.log(
 	search([1, 5, 31, 14, 50, 60, 80], 50)
 );
+
+// Challenge No.90
+// Buggy Code (Part 3)
+function sumArray(arr) {
+	let sum5 = 0;
+	for (let i = 0; i < arr.length; i++) {
+		sum5 += arr[i];
+	}
+	return sum5;
+}
+console.log(sumArray([1, 2, 3, 4, 5]));
