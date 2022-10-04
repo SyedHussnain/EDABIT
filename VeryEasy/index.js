@@ -779,3 +779,27 @@ function isEvenOrOdd(num) {
 	return num % 2 === 0 ? "Even" : "Odd";
 }
 console.log(isEvenOrOdd(25));
+
+// Challenge No.80
+// Many Operators!
+function operate(num1, num2, operator) {
+	switch (operator) {
+		case "+":
+			return num1 + num2;
+			break;
+		case "-":
+			return num1 - num2;
+			break;
+		case "*":
+			return num1 * num2;
+			break;
+		case "/":
+			return num1 / num2;
+			break;
+
+		default:
+			"Enter Valid Operator";
+			break;
+	}
+}
+console.log(operate(100, 20, "-"));
