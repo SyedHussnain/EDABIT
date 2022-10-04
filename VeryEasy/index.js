@@ -588,4 +588,12 @@ console.log("TypeOf the Argument Passed in String = " + typeof nn + " = " + nn);
 function posCom(num) {
   return 2 ** num;
 }
-console.log(" Possible Numbers of Arrangement of Swithes = "+posCom(10));
+console.log(" Possible Numbers of Arrangement of Swithes = " + posCom(10));
+
+// Challenge No.73
+// Among Us Imposter Formula
+// The player limit is 10 and the imposter count can only go up to 3.
+function imposterFormula(i, p) {
+  return 100 * (i / p);
+}
+console.log("Chances of imposter = " + imposterFormula(1, 10)+"%")
