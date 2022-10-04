@@ -833,3 +833,13 @@ console.log(
 console.log(
 	"Triangle = " + areaShape(8, 6, "parallelogram")
 );
+
+// Challenge No.84
+// Convert an Array to a String
+function arrayToString(arr) {
+	return arr.join("");
+}
+let abr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log(
+	"Array to String = " + arrayToString(abr)
+);
