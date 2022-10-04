@@ -847,14 +847,23 @@ console.log(
 // Challenge No.85
 // Concatenating Two Integer Arrays
 function concat(arr1, arr2) {
-  return arr1.concat(arr2);
+	return arr1.concat(arr2);
 }
 console.log(concat([1, 3, 5], [2, 6, 8]));
 
 // Challenge No.86
 // Find the Index
 function findIndex(arr, str) {
-  return arr.indexOf(str);
+	return arr.indexOf(str);
 }
 
-console.log(findIndex(["hi", "edabit", "fgh", "abc"], "abc"))
+console.log(
+	findIndex(["hi", "edabit", "fgh", "abc"], "abc")
+);
+
+// Challenge No.87
+// Radians to Degrees
+function radiansToDegrees(rad) {
+	return (rad * 180) / Math.PI;
+}
+console.log(radiansToDegrees(20));
