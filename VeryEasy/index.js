@@ -736,6 +736,34 @@ console.log(yearsInOneHouse(15, 2));
 // Challenge No.76
 // Word without First Character
 function newWord(str) {
-  return str.substring(1);
+	return str.substring(1);
 }
-console.log("First Character Removed = ", newWord("Apple"));
+console.log(
+	"First Character Removed = ",
+	newWord("Apple")
+);
+
+// Challenge No.77
+// Flip the Boolean
+function flipBool(b) {
+	let z;
+	switch (b) {
+		case false:
+			z = 0;
+			break;
+
+		case 0:
+			z = false;
+			break;
+
+		case true:
+			z = 1;
+			break;
+
+		default:
+			z = true;
+			break;
+  }
+  return z;
+}
+console.log(flipBool(0));
