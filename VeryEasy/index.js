@@ -732,3 +732,10 @@ function yearsInOneHouse(age, moves) {
 	return age / (moves + 1);
 }
 console.log(yearsInOneHouse(15, 2));
+
+// Challenge No.76
+// Word without First Character
+function newWord(str) {
+  return str.substring(1);
+}
+console.log("First Character Removed = ", newWord("Apple"));
